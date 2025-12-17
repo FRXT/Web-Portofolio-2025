@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portofolio | Network Engineer</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      scroll-behavior: smooth;
+      background-color: #111;
+      color: #e0e0e0;
+    }
+
+    /* Background Blur */
+    .hero {
+      position: relative;
+      min-height: 100vh;
+      background: url('https://images.unsplash.com/photo-1551703599-6b3e8379aa8c?q=80&w=873&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center/cover no-repeat;
+      display: flex;
+      align-items: center;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.65);
+      backdrop-filter: blur(6px);
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+    }
+
+    .section-title {
+      margin-bottom: 40px;
+      color: #f1f1f1;
+    }
+
+    .navbar {
+      background-color: #000 !important;
+    }
+
+    .card {
+      background-color: #1c1c1c;
+      border: none;
+      color: #ddd;
+    }
+
+    .card-title {
+      color: #fff;
+    }
+
+    .btn-primary {
+      background-color: #444;
+      border: none;
+    }
+
+    .btn-primary:hover {
+      background-color: #666;
+    }
+
+    footer {
+      background-color: #000;
+      color: #aaa;
+    }
+
+    input, textarea {
+      background-color: #222 !important;
+      border: 1px solid #444 !important;
+      color: #fff !important;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#home">PORTOFOLIO</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">Tentang</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Keahlian</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Proyek</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Kontak</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section id="home" class="hero text-center">
+  <div class="container hero-content">
+    <h1 class="display-4 fw-bold">Muhammad Farhan</h1>
+    <p class="lead text-secondary">Network Engineer • Web Developer • Mahasiswa Sistem Informasi</p>
+    <a href="#contact" class="btn btn-primary btn-lg mt-3">Hubungi Saya</a>
+  </div>
+</section>
+
+<!-- About -->
+<section id="about" class="py-5">
+  <div class="container">
+    <h2 class="section-title text-center">Tentang Saya</h2>
+    <p class="text-center text-secondary">
+      Saya adalah lulusan Teknik Komputer dan Jaringan (TKJ) dari SMK Malaka Jakarta dan saat ini
+      sedang menempuh pendidikan S1 Sistem Informasi di Universitas Bina Sarana Informatika.
+      Saya memiliki minat besar pada dunia jaringan komputer, IT Support, dan infrastruktur jaringan.
+      Berpengalaman dalam instalasi, konfigurasi, serta troubleshooting perangkat jaringan dan komputer.
+      Selain itu saya juga berminat di bidang System Administrator dan Pengelolaan Server dan Web Development.
+    </p>
+  </div>
+</section>
+
+<!-- Skills -->
+<section id="skills" class="py-5 bg-dark">
+  <div class="container">
+    <h2 class="section-title text-center">Keahlian Teknis</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card mb-4 text-center">
+          <div class="card-body">
+            <h5 class="card-title">Networking</h5>
+            <p class="card-text">Instalasi jaringan, VLAN, Topologi Jaringan, Switching, IP Phone, Routing Dynamic dan Static</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4 text-center">
+          <div class="card-body">
+            <h5 class="card-title">Troubleshooting</h5>
+            <p class="card-text">Troubleshoot jaringan, komputer, laptop, dan perangkat IT</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4 text-center">
+          <div class="card-body">
+            <h5 class="card-title">Tools & Perangkat</h5>
+            <p class="card-text">MikroTik, Cisco, Switch, IP Phone, Huawei, Rujie, ZTE, HPE, Aruba</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4 text-center">
+          <div class="card-body">
+            <h5 class="card-title">Web Development</h5>
+            <p class="card-text">HTML, CSS, PHP, Boottrap, Laravel, JavaScript, MySQL</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Projects -->
+<section id="projects" class="py-5">
+  <div class="container">
+    <h2 class="section-title text-center">Pengalaman & Proyek</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card mb-4">
+          <div class="card-body">
+            <h5 class="card-title">IT Support & Teknisi Jaringan</h5>
+            <p class="card-text">
+              PT Mosya Karya Mandiri (Agustus 2024 - Sekarang)<br>
+              Maintenance perangkat jaringan dan IP Phone di Lembaga Administrasi Negara,
+              troubleshooting jaringan, penggantian switch, dan konfigurasi perangkat jaringan.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card mb-4">
+          <div class="card-body">
+            <h5 class="card-title">Praktik Kerja Lapangan</h5>
+            <p class="card-text">
+              PT Rayya Komudata (Jan 2023 - Mar 2023)<br>
+              Merakit komputer desktop, pemasangan control box CCTV, dan membantu operasional IT.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card mb-4">
+          <div class="card-body">
+            <h5 class="card-title">Proyek SMK</h5>
+            <p class="card-text">Membuat topologi jaringan, konfigurasi Cisco & MikroTik, perakitan komputer, Konfigurasi IP Phone Dial Peer Cisco, Static Route Cisco, Routing EIGRP Cisco, Routing OSPF MikroTik, Implementasi Firewall NAT MikroTik, Filter Rulest MikroTik,Blok Web via Mangle Mikrotik, Blok Web via Layer 7 Protocol, Instalasi Linux Ubuntu, Debian, CLear OS, Konfigurasi DNS Linux Debian, Konfigurasi Web Server Linux Clear OS.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6"> 
+        <div class="card mb-4"> 
+            <div class="card-body"> 
+                <h5 class="card-title">Network Operation Center</h5> 
+                <p class="card-text"> PT. Victory Network Indonesia (Jan 2025 - Sekarang)<br> Monitoring perangkat Jaringan The Dude, PRTG, MRTG, Konfigurasi Router MikroTik, Konfigurasi Switch Huawei, OLT ZTE dan Huawei, Troubleshoot FTTH Broadband and Dedicated Customer, Activation New Customer Broadband dan Dedicated, Rujie Home Router dan AP Instalation, Customer Service, Konfigurasi dan Troubleshooting PPPoE. </p> 
+                </div> 
+            </div> 
+        </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<!-- Certification -->
+<section id="certification" class="py-5 bg-dark">
+  <div class="container">
+    <h2 class="section-title text-center">Sertifikasi</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="card mb-3">
+          <div class="card-body text-center">
+            <h5 class="card-title">Okupasi Technical Support</h5>
+            <p class="card-text">Badan Nasional Sertifikasi Profesi (BNSP)</p>
+          </div>
+        </div>
+        <div class="card mb-3">
+          <div class="card-body text-center">
+            <h5 class="card-title">TP-Link OCNA Switching and Routing</h5>
+            <p class="card-text">TP-Link Certified Network Associate</p>
+          </div>
+        </div>
+        <div class="card mb-3">
+          <div class="card-body text-center">
+            <h5 class="card-title">TP-Link OCNA Wireless</h5>
+            <p class="card-text">TP-Link Certified Network Associate (Wireless)</p>
+          </div>
+        </div>
+        <div class="card mb-3">
+          <div class="card-body text-center">
+            <h5 class="card-title">Uji Kompetensi Berbasis Industri</h5>
+            <p class="card-text">Bidang Basis Data – PHP ID</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="py-5 bg-dark">
+  <div class="container">
+    <h2 class="section-title text-center">Kontak</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-8 text-center text-secondary">
+        <p class="mb-2 fw-semibold text-light">Muhammad Farhan</p>
+        <p class="mb-1">📞 0851-5671-5817</p>
+        <p class="mb-1">✉️ emailfarhan3@gmail.com</p>
+        <p class="mb-1">🔗 <a href="https://www.linkedin.com/in/muhammad-farhan-b342512b9/" target="_blank" class="text-decoration-none text-light">LinkedIn Muhammad Farhan</a></p>
+        <p class="mt-3">📍 Jakarta Timur, DKI Jakarta</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-center py-3">
+  <small>© 2025 Muhammad Farhan • Network Engineer & Mahasiswa Sistem Informasi</small>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
